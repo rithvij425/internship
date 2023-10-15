@@ -8,16 +8,16 @@ function c(){
         document.getElementById("output").innerHTML = "your answer is "+""+res;
     }
     else if(oper=="-"){
-        res=parseFloat(num1)+parseFloat(num2)
-        document.getElementById("output").innerHTML = "your answer is "-""+res;
+        res=parseFloat(num1)-parseFloat(num2)
+        document.getElementById("output").innerHTML = "your answer is "+""+res;
     }
     else if(oper=="*"){
-        res=parseFloat(num1)+parseFloat(num2)
-        document.getElementById("output").innerHTML = "your answer is "*""+res;
+        res=parseFloat(num1)*parseFloat(num2)
+        document.getElementById("output").innerHTML = "your answer is "+""+res;
     }
     else if(oper=="/"){
-        res=parseFloat(num1)+parseFloat(num2)
-        document.getElementById("output").innerHTML = "your answer is "/""+res;
+        res=parseFloat(num1)/parseFloat(num2)
+        document.getElementById("output").innerHTML = "your answer is "+""+res;
     }
 
 }
