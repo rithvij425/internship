@@ -1,0 +1,30 @@
+.card-row {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+  margin-right: 5px; 
+}
+
+.card:last-child {
+  margin-right: 0; 
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card p {
+  color: #666;
+}
